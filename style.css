@@ -1,0 +1,203 @@
+/* Variables */
+/* Global */
+body {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: "Lora", serif;
+}
+
+a {
+  color: #f2f2f2;
+}
+
+a:hover {
+  color: #e0811f;
+  text-decoration: none;
+}
+
+.btn-one {
+  color: #A30D59;
+  background-color: #f2f2f2;
+  font-family: "Lora", serif;
+}
+
+.btn-one:hover {
+  color: #f2f2f2;
+  background-color: #e0811f;
+}
+
+.btn-two {
+  color: #f2f2f2;
+  background-color: #A30D59;
+  font-family: "Lora", serif;
+}
+
+.btn-two:hover {
+  color: #f2f2f2;
+  background-color: #e0811f;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #A30D59;
+}
+
+.dropdown-menu {
+  background-color: #f2f2f2;
+}
+
+.dropdown-item {
+  color: #A30D59;
+}
+
+.dropdown-item:hover {
+  background-color: #e0811f;
+  color: #f2f2f2;
+}
+
+/* Main slider */
+.carousel-inner, .carousel-item {
+  height: 100vh;
+}
+
+.carousel-caption {
+  right: auto;
+  bottom: auto;
+  padding: 0;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.carousel-caption h4 {
+  text-transform: uppercase;
+}
+
+.carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Products */
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Pictures */
+.pictures .card {
+  background: black;
+}
+
+.pictures img {
+  opacity: 0.5;
+}
+
+.pictures .card:hover img {
+  opacity: 0.7;
+}
+
+.pictures .card-title {
+  color: #f2f2f2;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Contact */
+.contact {
+  background: #fff0f7;
+}
+
+.contact a {
+  color: #A30D59;
+}
+
+.contact a:hover {
+  color: #e0811f;
+}
+
+.contact .fab {
+  font-size: 20px;
+}
+
+/* Footer */
+footer {
+  background: #e8d3dd;
+}
+
+footer a {
+  color: #A30D59;
+}
+
+/* Media query */
+/* Extra small */
+@media (max-width: 576px) {
+  .carousel-caption h4 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .carousel-caption h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .contact .fab {
+    font-size: 30px;
+    margin: 0 5px;
+  }
+}
+
+/* Small */
+@media (min-width: 577px) and (max-width: 767px) {
+  .carousel-caption h4 {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .carousel-caption h3 {
+    font-size: 60px;
+    margin-bottom: 60px;
+  }
+  .contact .fab {
+    font-size: 36px;
+    margin: 0 10px;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+  .offer .fas {
+    font-size: 22px;
+  }
+}
+
+/* Large */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .products .card-title {
+    font-size: 16px;
+  }
+}
+
+/* Above Large */
+@media (min-width: 992px) {
+  .offer .fas {
+    font-size: 36px;
+  }
+}
+
+/* Above Medium */
+@media (min-width: 768px) {
+  .carousel-caption h4 {
+    font-size: 30px;
+    margin-bottom: 60px;
+  }
+  .carousel-caption h3 {
+    font-size: 100px;
+    margin-bottom: 60px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,206 @@
+/* Variables */
+$color-one: #A30D59;
+$color-two: #e0811f;
+$color-three: #fff0f7;
+$color-four: #e8d3dd;
+$color-five: #f2f2f2;
+$font-one: 'Lora', serif;
+$font-two: 'Merriweather', serif;
+
+/* Global */
+body{
+    $font-family: $font-two;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, a{
+    font-family: $font-one;
+}
+
+a{
+    color: $color-five;
+}
+
+a:hover{
+    color: $color-two;
+    text-decoration: none;
+}
+
+.btn-one{
+    color: $color-one;
+    background-color: $color-five;
+    font-family: $font-one;
+}
+
+.btn-one:hover{
+    color: $color-five;
+    background-color: $color-two;
+}
+
+.btn-two{
+    color: $color-five;
+    background-color: $color-one;
+    font-family: $font-one;
+}
+.btn-two:hover{
+    color: $color-five;
+    background-color: $color-two;
+}
+/* Navbar */
+.navbar{
+    background-color: $color-one;
+}
+
+.dropdown-menu{
+    background-color: $color-five;
+}
+
+.dropdown-item{
+    color: $color-one;  
+}
+
+.dropdown-item:hover{
+    background-color: $color-two;
+    color: $color-five;
+}
+
+/* Main slider */
+.carousel-inner, .carousel-item{
+    height: 100vh;
+}
+
+.carousel-caption{
+    right: auto;
+    bottom: auto;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.carousel-caption h4{
+    text-transform: uppercase;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Products */
+
+.card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Pictures */
+.pictures .card{
+    background: black;
+}
+
+.pictures img{
+    opacity: 0.5;
+}
+.pictures .card:hover img{
+    opacity: 0.7;
+}
+
+.pictures .card-title{
+    color: $color-five;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Contact */
+.contact{
+    background: $color-three;
+}
+
+.contact a{
+    color: $color-one;
+}
+
+.contact a:hover{
+    color: $color-two;
+}
+
+.contact .fab{
+    font-size: 20px;
+}
+/* Footer */
+footer{
+    background: $color-four;
+}
+
+footer a{
+    color: $color-one;
+}
+
+
+/* Media query */
+/* Extra small */
+@media (max-width: 576px) {  
+    .carousel-caption h4{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .carousel-caption h3{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .contact .fab{
+        font-size: 30px;
+        margin: 0 5px;
+    }
+}
+
+/* Small */
+@media (min-width: 577px) and (max-width: 767px) {  
+    .carousel-caption h4{
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    .carousel-caption h3{
+        font-size: 60px;
+        margin-bottom: 60px;
+    }
+    .contact .fab{
+        font-size: 36px;
+        margin: 0 10px;
+    }
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {  
+    .offer .fas{
+        font-size: 22px;
+    }
+}
+
+/* Large */
+@media (min-width: 992px) and (max-width: 1200px) {  
+    .products .card-title{
+        font-size: 16px;
+    }
+}
+
+/* Above Large */
+@media (min-width: 992px){  
+    .offer .fas{
+        font-size: 36px;
+    } 
+}
+
+/* Above Medium */
+@media (min-width: 768px){
+    .carousel-caption h4{
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+    .carousel-caption h3{
+        font-size: 100px;
+        margin-bottom: 60px;
+    }
+}
